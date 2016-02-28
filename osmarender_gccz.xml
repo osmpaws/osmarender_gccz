@@ -562,10 +562,10 @@
 				<line stroke="#FFDD00" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="10,10" />
 			</rule>
 			<rule e="way" k="kct_green" v="major">
-				<line stroke="#00cd7d" stroke-width="1.1" />
+				<line stroke="#00cd27" stroke-width="1.1" />
 			</rule>
 			<rule e="way" k="kct_green" v="local|learning|ruin|peak|spring|interesting_object|horse|ski|bicycle|wheelchair">
-				<line stroke="#00cd7d" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="10,10" />
+				<line stroke="#00cd27" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="10,10" />
 			</rule>
 		
 			<rule e="way" k="kct_orange" v="major|local|learning|ruin|peak|spring|interesting_object|horse|ski|bicycle|wheelchair">
@@ -604,10 +604,10 @@
 				<line stroke="#FFDD00" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="10,10" />
 			</rule>
 			<rule e="way" k="kct_green" v="major">
-				<line stroke="#00cd7d" stroke-width="1.5" />
+				<line stroke="#00cd27" stroke-width="1.5" />
 			</rule>
 			<rule e="way" k="kct_green" v="local|learning|ruin|peak|spring|interesting_object|horse|ski|bicycle|wheelchair">
-				<line stroke="#00cd7d" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="10,10" />
+				<line stroke="#00cd27" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="10,10" />
 			</rule>
 		
 			<rule e="way" k="kct_orange" v="major|local|learning|ruin|peak|spring|interesting_object|horse|ski|bicycle|wheelchair">
@@ -646,10 +646,10 @@
 				<line stroke="#FFDD00" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="10,10" />
 			</rule>
 			<rule e="way" k="kct_green" v="major">
-				<line stroke="#00cd7d" stroke-width="2.1" />
+				<line stroke="#00cd27" stroke-width="2.1" />
 			</rule>
 			<rule e="way" k="kct_green" v="local|learning|ruin|peak|spring|interesting_object|horse|ski|bicycle|wheelchair">
-				<line stroke="#00cd7d" stroke-width="2.1" stroke-linecap="round" stroke-dasharray="10,10" />
+				<line stroke="#00cd27" stroke-width="2.1" stroke-linecap="round" stroke-dasharray="10,10" />
 			</rule>
 		
 			<rule e="way" k="kct_orange" v="major|local|learning|ruin|peak|spring|interesting_object|horse|ski|bicycle|wheelchair">

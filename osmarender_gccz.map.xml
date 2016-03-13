@@ -28,6 +28,27 @@
 	
 	<!-- ways -->
 	<rule e="way" k="*" v="*">
+		<!-- natural -->
+		<rule e="way" k="natural" v="*">
+			<rule e="way" k="natural" v="coastline">
+			    <rule e="way" k="*" v="*" closed="no">
+				<line stroke="#708599" stroke-width="0.3" />
+			    </rule>
+			    <rule e="way" k="*" v="*" closed="yes">
+				<!-- <area fill="#b5d6f1" stroke="#b5d6f1" stroke-width="0.4" /> -->
+				<area fill="#f9f9f9" stroke="#f9f9f9" stroke-width="0.4" />
+			    </rule>
+			</rule>
+			<rule e="way" k="natural" v="glacier">
+			    <area fill="#fafaff" stroke="#add8e6" stroke-width="0.8" />
+			</rule>
+			<rule e="way" k="natural" v="land">
+			    <area fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.1" />
+			</rule>
+			<rule e="way" k="natural" v="grassland">
+			    <area fill="#eeffbb" stroke="#77dd66" stroke-width="0.1" />
+			</rule>
+		</rule>
 		<!-- landuse -->
 		<rule e="way" k="landuse" v="*">
 			<rule e="way" k="landuse" v="residential">
@@ -216,20 +237,6 @@
 
 		<!-- natural -->
 		<rule e="way" k="natural" v="*">
-			<rule e="way" k="natural" v="coastline">
-				<rule e="way" k="*" v="*" closed="no">
-					<line stroke="#708599" stroke-width="2.0" />
-				</rule>
-				<rule e="way" k="*" v="*" closed="yes">
-					<area fill="#b5d6f1" stroke="#b5d6f1" stroke-width="0.4" />
-				</rule>
-			</rule>
-			<rule e="way" k="natural" v="glacier">
-				<area fill="#fafaff" stroke="#add8e6" stroke-width="0.8" />
-			</rule>
-			<rule e="way" k="natural" v="land">
-				<area fill="#f8f8f8" stroke="#e0e0e0" stroke-width="0.1" />
-			</rule>
 			<rule e="way" k="natural" v="cliff">
 				<!--<area fill="#666666" stroke="#444444" stroke-width="0.1" />-->
 				<line stroke="#444444" stroke-width="0.1" />
@@ -238,14 +245,14 @@
 			<rule e="way" k="natural" v="beach">
 				<area fill="#eecc55" />
 			</rule>
+			<rule e="way" k="natural" v="sand">
+				<area fill="#ddbb55" />
+			</rule>
 			<rule e="way" k="natural" v="heath">
 				<area fill="#ffffc0" stroke="#ffff90" stroke-width="0.2" />
 			</rule>
 			<rule e="way" k="natural" v="marsh|wetland">
 				<area src="file:patterns/marsh.png" />
-			</rule>
-			<rule e="way" k="natural" v="grassland">
-				<area fill="#eeffbb" stroke="#77dd66" stroke-width="0.1" />
 			</rule>
 			<rule e="way" k="*" v="*" zoom-min="16">
 				<caption k="name" font-style="bold" font-size="10" fill="#4040ff" stroke="#ffffff" stroke-width="2.0" />
@@ -562,10 +569,10 @@
 				<line stroke="#FFDD00" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="10,10" />
 			</rule>
 			<rule e="way" k="kct_green" v="major">
-				<line stroke="#00cd7d" stroke-width="1.1" />
+				<line stroke="#00cd27" stroke-width="1.1" />
 			</rule>
 			<rule e="way" k="kct_green" v="local|learning|ruin|peak|spring|interesting_object|horse|ski|bicycle|wheelchair">
-				<line stroke="#00cd7d" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="10,10" />
+				<line stroke="#00cd27" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="10,10" />
 			</rule>
 		
 			<rule e="way" k="kct_orange" v="major|local|learning|ruin|peak|spring|interesting_object|horse|ski|bicycle|wheelchair">
@@ -604,10 +611,10 @@
 				<line stroke="#FFDD00" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="10,10" />
 			</rule>
 			<rule e="way" k="kct_green" v="major">
-				<line stroke="#00cd7d" stroke-width="1.5" />
+				<line stroke="#00cd27" stroke-width="1.5" />
 			</rule>
 			<rule e="way" k="kct_green" v="local|learning|ruin|peak|spring|interesting_object|horse|ski|bicycle|wheelchair">
-				<line stroke="#00cd7d" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="10,10" />
+				<line stroke="#00cd27" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="10,10" />
 			</rule>
 		
 			<rule e="way" k="kct_orange" v="major|local|learning|ruin|peak|spring|interesting_object|horse|ski|bicycle|wheelchair">
@@ -646,10 +653,10 @@
 				<line stroke="#FFDD00" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="10,10" />
 			</rule>
 			<rule e="way" k="kct_green" v="major">
-				<line stroke="#00cd7d" stroke-width="2.1" />
+				<line stroke="#00cd27" stroke-width="2.1" />
 			</rule>
 			<rule e="way" k="kct_green" v="local|learning|ruin|peak|spring|interesting_object|horse|ski|bicycle|wheelchair">
-				<line stroke="#00cd7d" stroke-width="2.1" stroke-linecap="round" stroke-dasharray="10,10" />
+				<line stroke="#00cd27" stroke-width="2.1" stroke-linecap="round" stroke-dasharray="10,10" />
 			</rule>
 		
 			<rule e="way" k="kct_orange" v="major|local|learning|ruin|peak|spring|interesting_object|horse|ski|bicycle|wheelchair">

@@ -874,33 +874,58 @@
 						</rule>
 					</rule>
 					<rule e="way" k="highway" v="path">
-						<line stroke="#B0B0B0" stroke-width="0.45" />
+						<line stroke="#909090" stroke-width="0.45" />
 						<line stroke="#FFFFFF" stroke-width="0.5" stroke-dasharray="5,13"/>
 						<rule e="way" k="*" v="*" zoom-min="15">
 							<pathText k="name" font-style="bold" font-size="10" stroke="#d0d0d0" stroke-width="2.0" />
 						</rule>
 					</rule>
 					<rule e="way" k="highway" v="track">
-						<rule e="way" k="tracktype" v="grade1">
-							<line stroke="#505050" stroke-width="0.75" />
+						<rule e="way" k="*" v="*" zoom-max="16">
+							<rule e="way" k="tracktype" v="grade1">
+								<line stroke="#404040" stroke-width="0.95" />
+							</rule>
+							<rule e="way" k="tracktype" v="grade2">
+								<line stroke="#404040" stroke-width="0.95" stroke-linecap="square" stroke-dasharray="20,6"/>
+							</rule>
+							<rule e="way" k="tracktype" v="grade3">
+								<line stroke="#505050" stroke-width="0.8" stroke-linecap="square" stroke-dasharray="15,7" />
+							</rule>
+							<rule e="way" k="tracktype" v="grade4">
+								<line stroke="#505050" stroke-width="0.8" stroke-linecap="square" stroke-dasharray="10,12"/>
+							</rule>
+							<rule e="way" k="tracktype" v="grade5">
+								<line stroke="#505050" stroke-width="0.75" stroke-linecap="round" stroke-dasharray="5,7,1,7"/>
+							</rule>
+							<rule e="way" k="tracktype" v="~|no|false">
+								<line stroke="#505050" stroke-width="0.7" stroke-linecap="round" stroke-dasharray="5,12,1,12"/>
+							</rule>
+							<rule e="way" k="*" v="*" zoom-min="15">
+								<pathText k="name" font-style="bold" font-size="10" stroke="#fff2de" stroke-width="2.0" />
+							</rule>
 						</rule>
-						<rule e="way" k="tracktype" v="grade2">
-							<line stroke="#505050" stroke-width="0.75" stroke-linecap="round" stroke-dasharray="20,5"/>
-						</rule>
-						<rule e="way" k="tracktype" v="grade3">
-							<line stroke="#707070" stroke-width="0.7" stroke-linecap="round" stroke-dasharray="15,10" />
-						</rule>
-						<rule e="way" k="tracktype" v="grade4">
-							<line stroke="#707070" stroke-width="0.7" stroke-linecap="round" stroke-dasharray="10,10,5,10"/>
-						</rule>
-						<rule e="way" k="tracktype" v="grade5">
-							<line stroke="#707070" stroke-width="0.7" stroke-linecap="round" stroke-dasharray="5,10,1,10"/>
-						</rule>
-						<rule e="way" k="tracktype" v="~|no|false">
-							<line stroke="#707070" stroke-width="0.7" stroke-linecap="round" stroke-dasharray="5,13,2,10"/>
-						</rule>
-						<rule e="way" k="*" v="*" zoom-min="15">
-							<pathText k="name" font-style="bold" font-size="10" stroke="#fff2de" stroke-width="2.0" />
+						<rule e="way" k="*" v="*" zoom-min="17">
+							<rule e="way" k="tracktype" v="grade1">
+								<line stroke="#404040" stroke-width="0.95" />
+							</rule>
+							<rule e="way" k="tracktype" v="grade2">
+								<line stroke="#404040" stroke-width="0.95" stroke-linecap="square" stroke-dasharray="25,6"/>
+							</rule>
+							<rule e="way" k="tracktype" v="grade3">
+								<line stroke="#505050" stroke-width="0.8" stroke-linecap="square" stroke-dasharray="15,10" />
+							</rule>
+							<rule e="way" k="tracktype" v="grade4">
+								<line stroke="#505050" stroke-width="0.8" stroke-linecap="square" stroke-dasharray="10,20"/>
+							</rule>
+							<rule e="way" k="tracktype" v="grade5">
+								<line stroke="#505050" stroke-width="0.75" stroke-linecap="round" stroke-dasharray="5,10,1,10"/>
+							</rule>
+							<rule e="way" k="tracktype" v="~|no|false">
+								<line stroke="#505050" stroke-width="0.7" stroke-linecap="round" stroke-dasharray="5,20,2,20"/>
+							</rule>
+							<rule e="way" k="*" v="*" zoom-min="15">
+								<pathText k="name" font-style="bold" font-size="10" stroke="#fff2de" stroke-width="2.0" />
+							</rule>
 						</rule>
 					</rule>
 					<rule e="way" k="highway" v="cycleway">

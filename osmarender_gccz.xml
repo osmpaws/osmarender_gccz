@@ -535,28 +535,34 @@
 	<rule e="way" k="*" v="*">
 		<!--KCT Bicycle-->
 		<rule e="way" k="route" v="bicycle">
-			<rule e="way" k="network" v="ncn" zoom-min="16">
-				<line stroke="#00FFFF" stroke-width="4.1" stroke-linecap="round" stroke-dasharray="0.1,50" />
+			<rule e="way" k="network" v="ncn" zoom-min="19">
+				<line stroke="#00FFFF" stroke-width="4.2" stroke-linecap="round" stroke-dasharray="0.1,120" />
+			</rule>
+			<rule e="way" k="network" v="ncn" zoom-min="16" zoom-max="18">
+				<line stroke="#00FFFF" stroke-width="4.2" stroke-linecap="round" stroke-dasharray="0.1,60" />
 			</rule>
 			<rule e="way" k="network" v="ncn" zoom-min="13" zoom-max="15">
-				<line stroke="#00FFFF" stroke-width="4.1" stroke-linecap="round" stroke-dasharray="0.1,30" />
+				<line stroke="#00FFFF" stroke-width="4.2" stroke-linecap="round" stroke-dasharray="0.1,30" />
 			</rule>
 			<rule e="way" k="network" v="ncn" zoom-max="12">
-				<line stroke="#00FFFF" stroke-width="4.1" stroke-linecap="butt" stroke-dasharray="2,6" />
+				<line stroke="#00FFFF" stroke-width="4.2" stroke-linecap="round" stroke-dasharray="2,6" />
 			</rule>
-			<rule e="way" k="network" v="rcn|lcn" zoom-min="16">
-				<line stroke="#FF00FF" stroke-width="4.1" stroke-linecap="round" stroke-dasharray="0,5,0.1,40" />
+			<rule e="way" k="network" v="ncn" zoom-min="19">
+				<line stroke="#FF00FF" stroke-width="4.2" stroke-linecap="round" stroke-dasharray="0,5,0.1,100" />
 			</rule>
-			<rule e="way" k="network" v="rcn|lcn" zoom-min="13" zoom-max="15">
-				<line stroke="#FF00FF" stroke-width="4.1" stroke-linecap="round" stroke-dasharray="0,5,0.1,25" />
+			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="16" zoom-max="18">
+				<line stroke="#FF00FF" stroke-width="4.2" stroke-linecap="round" stroke-dasharray="0,5,0.1,50" />
 			</rule>
-			<rule e="way" k="network" v="rcn|lcn" zoom-max="12">
-				<line stroke="#FF00FF" stroke-width="4.1" stroke-linecap="butt" stroke-dasharray="0,2,2,4" />
+			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="13" zoom-max="15">
+				<line stroke="#FF00FF" stroke-width="4.2" stroke-linecap="round" stroke-dasharray="0,5,0.1,25" />
+			</rule>
+			<rule e="way" k="network" v="rcn|lcn|~" zoom-max="12">
+				<line stroke="#FF00FF" stroke-width="4.2" stroke-linecap="round" stroke-dasharray="0,2,2,4" />
 			</rule>
 		</rule>
 		<!--KCT-->
-		<rule e="way" k="highway" v="track|path|footway|steps">
-			<rule e="way" k="kct_red" v="*">			
+		<rule e="way" k="highway" v="track|path|footway|steps|~">
+			<rule e="way" k="kct_red" v="*">
 				<line stroke="#FFFFFF" stroke-width="3" stroke-linecap="butt" />
 				<line stroke="#FF0000" stroke-width="2.3" stroke-linecap="butt" />
 			</rule>
@@ -865,19 +871,19 @@
 								<line stroke="#404040" stroke-width="0.95" />
 							</rule>
 							<rule e="way" k="tracktype" v="grade2">
-								<line stroke="#404040" stroke-width="0.95" stroke-linecap="square" stroke-dasharray="25,15"/>
+								<line stroke="#404040" stroke-width="0.95" stroke-linecap="square" stroke-dasharray="30,15"/>
 							</rule>
 							<rule e="way" k="tracktype" v="grade3">
-								<line stroke="#505050" stroke-width="0.8" stroke-linecap="square" stroke-dasharray="15,12,1,12" />
+								<line stroke="#505050" stroke-width="0.8" stroke-linecap="square" stroke-dasharray="20,12,1,12" />
 							</rule>
 							<rule e="way" k="tracktype" v="grade4">
-								<line stroke="#505050" stroke-width="0.8" stroke-linecap="square" stroke-dasharray="10,12,1,12,1,12"/>
+								<line stroke="#505050" stroke-width="0.8" stroke-linecap="square" stroke-dasharray="15,12,1,12,1,12"/>
 							</rule>
 							<rule e="way" k="tracktype" v="grade5">
-								<line stroke="#505050" stroke-width="0.75" stroke-linecap="square" stroke-dasharray="10,12,1,12,1,12,1,12"/>
+								<line stroke="#505050" stroke-width="0.75" stroke-linecap="square" stroke-dasharray="15,12,1,12,1,12,1,12"/>
 							</rule>
 							<rule e="way" k="tracktype" v="~|no|false">
-								<line stroke="#505050" stroke-width="0.7" stroke-linecap="square" stroke-dasharray="10,12,1,12,1,12,1,12,1,12"/>
+								<line stroke="#505050" stroke-width="0.7" stroke-linecap="square" stroke-dasharray="15,12,1,12,1,12,1,12,1,12"/>
 							</rule>
 						</rule>
 						<rule e="way" k="*" v="*" zoom-min="19">
@@ -885,19 +891,19 @@
 								<line stroke="#404040" stroke-width="0.95" />
 							</rule>
 							<rule e="way" k="tracktype" v="grade2">
-								<line stroke="#404040" stroke-width="0.95" stroke-linecap="square" stroke-dasharray="25,15"/>
+								<line stroke="#404040" stroke-width="0.95" stroke-linecap="square" stroke-dasharray="35,15"/>
 							</rule>
 							<rule e="way" k="tracktype" v="grade3">
-								<line stroke="#505050" stroke-width="0.8" stroke-linecap="square" stroke-dasharray="15,30,1,30" />
+								<line stroke="#505050" stroke-width="0.8" stroke-linecap="square" stroke-dasharray="25,30,1,30" />
 							</rule>
 							<rule e="way" k="tracktype" v="grade4">
-								<line stroke="#505050" stroke-width="0.8" stroke-linecap="square" stroke-dasharray="10,30,1,30,1,30"/>
+								<line stroke="#505050" stroke-width="0.8" stroke-linecap="square" stroke-dasharray="20,30,1,30,1,30"/>
 							</rule>
 							<rule e="way" k="tracktype" v="grade5">
-								<line stroke="#505050" stroke-width="0.75" stroke-linecap="square" stroke-dasharray="10,30,1,30,1,30,1,30"/>
+								<line stroke="#505050" stroke-width="0.75" stroke-linecap="square" stroke-dasharray="20,30,1,30,1,30,1,30"/>
 							</rule>
 							<rule e="way" k="tracktype" v="~|no|false">
-								<line stroke="#505050" stroke-width="0.7" stroke-linecap="square" stroke-dasharray="10,30,1,30,1,30,1,30,1,30"/>
+								<line stroke="#505050" stroke-width="0.7" stroke-linecap="square" stroke-dasharray="20,30,1,30,1,30,1,30,1,30"/>
 							</rule>
 						</rule>						
 						<rule e="way" k="*" v="*" zoom-min="15">
@@ -1135,17 +1141,17 @@
 		
 		<!--KCT Bicycle-->
 		<rule e="way" k="route" v="bicycle">
-			<rule e="way" k="network" v="ncn" zoom-min="13">
-				<pathText k="ref" font-style="bold" font-size="12" stroke="#000000" fill="#00FFFF" stroke-width="0.7" />
-			</rule>
-			<rule e="way" k="network" v="ncn" zoom-max="12">
-				<pathText k="ref" font-style="bold" font-size="12" stroke="#000000" fill="#00FFFF" stroke-width="0.7" />
-			</rule>
 			<rule e="way" k="network" v="rcn|lcn" zoom-min="13">
 				<pathText k="ref" font-style="bold" font-size="12" stroke="#FFFFFF" fill="#FF00FF" stroke-width="2.0" />
 			</rule>
 			<rule e="way" k="network" v="rcn|lcn" zoom-max="12">
 				<pathText k="ref" font-style="bold" font-size="12" stroke="#FFFFFF" fill="#FF00FF" stroke-width="2.0" />
+			</rule>
+			<rule e="way" k="network" v="ncn" zoom-min="13">
+				<pathText k="ref" font-style="bold" font-size="12" stroke="#000000" fill="#00FFFF" stroke-width="0.7" />
+			</rule>
+			<rule e="way" k="network" v="ncn" zoom-max="12">
+				<pathText k="ref" font-style="bold" font-size="12" stroke="#000000" fill="#00FFFF" stroke-width="0.7" />
 			</rule>
 		</rule>
 		

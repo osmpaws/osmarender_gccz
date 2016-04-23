@@ -547,7 +547,7 @@
 			<rule e="way" k="network" v="ncn" zoom-max="12">
 				<line stroke="#00FFFF" stroke-width="4.2" stroke-linecap="round" stroke-dasharray="2,6" />
 			</rule>
-			<rule e="way" k="network" v="ncn" zoom-min="19">
+			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="19">
 				<line stroke="#FF00FF" stroke-width="4.2" stroke-linecap="round" stroke-dasharray="0,5,0.1,100" />
 			</rule>
 			<rule e="way" k="network" v="rcn|lcn|~" zoom-min="16" zoom-max="18">

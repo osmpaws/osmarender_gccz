@@ -1657,6 +1657,9 @@
 		<rule e="node" k="leisure" v="swimming_pool" zoom-min="14">
 			<symbol src="file:symbols/swimming.png" />
 		</rule>
+		<rule e="node" k="leisure" v="picnic_table">
+			<symbol src="file:symbols/picnic_site.png" />
+		</rule>
 
 
 		<!-- man_made -->
@@ -1777,7 +1780,7 @@
 			</rule>
 			<rule e="node" k="information" v="guidepost">
 				<symbol src="file:symbols/guidepost.png" />
-				<caption k="ele" dy="15" font-style="bold" font-size="9" fill="#FFFFFF" stroke="#000000" stroke-width="1.0" />
+				<caption k="ele" dy="22" font-style="bold" font-size="9" fill="#FFFFFF" stroke="#000000" stroke-width="1.0" />
 			</rule>
 			<rule e="node" k="information" v="map">
 				<symbol src="file:symbols/map.png" />		

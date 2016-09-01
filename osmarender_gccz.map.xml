@@ -802,7 +802,7 @@
 		<!-- building -->
 		<rule e="way" k="building" v="*">
 			<area fill="#f3d6b6" stroke="#6a5a8e" stroke-width="0.2" />
-			<rule e="way" k="building" v="church|chapel|cathedral">
+			<rule e="way" k="building" v="church|chapel|cathedral|temple">
 				<area fill="#AAAAAA" stroke="#4A4A4A" stroke-width="0.2" />
 				<symbol src="file:symbols/church.png" />
 			</rule>
@@ -1678,7 +1678,7 @@
 			<rule e="node" k="building" v="chapel" >
 				<symbol src="file:symbols/chapel.png" />
 			</rule>
-			<rule e="node" k="building" v="church" >
+			<rule e="node" k="building" v="church|temple" >
 				<symbol src="file:symbols/church.png" />
 			</rule>
 		</rule>
